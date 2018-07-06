@@ -20,9 +20,9 @@ fi
 vps="vps";
 
 if [[ $vps = "vps" ]]; then
-	source="https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master"
+	source="https://raw.githubusercontent.com/airblue18/OCSPANEL/master"
 else
-	source="https://raw.githubusercontent.com/shigeno143/OCSAutoScript/master"
+	source="https://raw.githubusercontent.com/airblue18/OCSPANEL/master"
 fi
 
 # go to root
@@ -38,7 +38,7 @@ echo "I need to ask some questions before starting setup"
 echo "You can leave the default option and just hit enter if you agree with the option"
 echo ""
 echo "First I need to know the new password of MySQL root user:"
-read -p "Password: " -e -i shigeno DatabasePass
+read -p "Password: " -e -i airblue DatabasePass
 echo ""
 echo "Finally, name the Database Name for OCS Panels"
 echo " Please, use one word only, no special characters other than Underscore (_)"
@@ -58,7 +58,7 @@ echo 'echo -e "   #  ###  #  # # ##  # # # # "' >> .bashrc
 echo 'echo -e "    # # #  #  # # #   # # # # "' >> .bashrc
 echo 'echo -e "  ##  # # ###  ## ### # #  #  "' >> .bashrc
 echo 'echo -e "welcome to the server $HOSTNAME" | lolcat' >> .bashrc
-echo 'echo -e "Script mod by shigeno"' >> .bashrc
+echo 'echo -e "Script mod by airblue"' >> .bashrc
 echo 'echo -e "Type menu to display a list of commands"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 
@@ -176,7 +176,7 @@ clear
 echo "=======================================================" | tee -a log-install.txt
 echo "Please login Reseller Panel at http://$MYIP:85" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "Auto Script Installer OCS Panels Mod by shigeno"  | tee -a log-install.txt
+echo "Auto Script Installer OCS Panels Mod by airblue"  | tee -a log-install.txt
 echo "                        "  | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "Thanks " | tee -a log-install.txt
