@@ -8,4 +8,4 @@ Copy and Paste the commands posted below to the console/terminal of your VPS
 
 #Commands
 
-wget https://raw.githubusercontent.com/airblue18/OCSPANEL/master/OCS-Scriptz.sh && chmod +x OCS-Scriptz.sh && ./OCS-Scriptz.sh
+wget https://raw.githubusercontent.com/airblue18/OCSPANEL/master/OCS-Script.sh && chmod +x OCS-Script.sh && ./OCS-Script.sh
