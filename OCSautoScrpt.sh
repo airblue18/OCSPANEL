@@ -22,7 +22,7 @@ vps="vps";
 if [[ $vps = "vps" ]]; then
 	source="https://raw.githubusercontent.com/airblue18/OCSPANEL/master"
 else
-	source="https://raw.githubusercontent.com/airblue18/OCSPANEL/master"
+	source="https://raw.githubusercontent.com/airblue18/OCSPANEL/master/master"
 fi
 
 # go to root
@@ -52,13 +52,17 @@ apt-get update -y
 apt-get install build-essential expect -y
 
 echo "clear" >> .bashrc
-echo 'echo -e "   ## # # ###  ## ### ###  #  "' >> .bashrc
-echo 'echo -e "  #   # #  #  #   #   # # # # "' >> .bashrc
-echo 'echo -e "   #  ###  #  # # ##  # # # # "' >> .bashrc
-echo 'echo -e "    # # #  #  # # #   # # # # "' >> .bashrc
-echo 'echo -e "  ##  # # ###  ## ### # #  #  "' >> .bashrc
+echo 'echo -e '    #    ### ######  ######  #       #     # ####### "' >> .bashrc
+echo 'echo -e '   # #    #  #     # #     # #       #     # #       "' >> .bashrc
+echo 'echo -e '  #   #   #  #     # #     # #       #     # #       "' >> .bashrc
+echo 'echo -e ' #     #  #  ######  ######  #       #     # #####   "' >> .bashrc
+echo 'echo -e ' #######  #  #   #   #     # #       #     # #       "' >> .bashrc
+echo 'echo -e ' #     #  #  #    #  #     # #       #     # #       "' >> .bashrc
+echo 'echo -e ' #     # ### #     # ######  #######  #####  ####### "' >> .bashrc
+                                                     
+
 echo 'echo -e "welcome to the server $HOSTNAME" | lolcat' >> .bashrc
-echo 'echo -e "Script mod by airblue"' >> .bashrc
+echo 'echo -e "Script mod by shigeno"' >> .bashrc
 echo 'echo -e "Type menu to display a list of commands"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 
