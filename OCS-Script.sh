@@ -52,13 +52,13 @@ apt-get update -y
 apt-get install build-essential expect -y
 
 echo "clear" >> .bashrc
-echo 'echo -e '    *    *** ******  ******  *       *     * ******* "' >> .bashrc
-echo 'echo -e '   * *    *  *     * *     * *       *     * *       "' >> .bashrc
-echo 'echo -e '  *   *   *  *     * *     * *       *     * *       "' >> .bashrc
-echo 'echo -e ' *     *  *  ******  ******  *       *     * *****   "' >> .bashrc
-echo 'echo -e ' *******  *  *   *   *     * *       *     * *       "' >> .bashrc
-echo 'echo -e ' *     *  *  *    *  *     * *       *     * *       "' >> .bashrc
-echo 'echo -e ' *     * *** *     * ******  ******   *****  ******* "' >> .bashrc
+echo 'echo -e '    #    ### ######  #####   #       #     # ####### "' >> .bashrc
+echo 'echo -e '   # #    #  #     # #     # #       #     # #       "' >> .bashrc
+echo 'echo -e '  #   #   #  #     # #     # #       #     # #       "' >> .bashrc
+echo 'echo -e ' #     #  #  ######  #####   #       #     # #####   "' >> .bashrc
+echo 'echo -e ' #######  #  #   #   #     # #       #     # #       "' >> .bashrc
+echo 'echo -e ' #     #  #  #    #  #     # #       #     # #       "' >> .bashrc
+echo 'echo -e ' #     # ### #     # #####   ######   #####  ####### "' >> .bashrc
 echo 'echo -e "welcome to the server $HOSTNAME" | lolcat' >> .bashrc
 echo 'echo -e "Script mod by airblue"' >> .bashrc
 echo 'echo -e "Type menu to display a list of commands"' >> .bashrc
